@@ -3,4 +3,11 @@ storage:none
 
 clitool dotnet-fable
 nuget Fable.Core
+nuget Fable.PowerPack prerelease
+nuget Fable.React prerelease
 nuget Fable.Import.Browser
+nuget Fable.Import.Node
+
+group Build
+  source https://nuget.org/api/v2
+  nuget FAKE
